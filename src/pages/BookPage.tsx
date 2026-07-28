@@ -36,8 +36,7 @@ export default function BookPage({ initialPackageId, onBackHome }: BookPageProps
               Book Your <span className="text-gold">Appointment</span>
             </h1>
             <p className="text-gray-500 text-sm mt-3 max-w-md mx-auto">
-              Fill out the form below and we'll text you to confirm your mobile
-              detailing appointment.
+              Pick a date and time that works for you and we'll handle the rest.
             </p>
           </div>
 
