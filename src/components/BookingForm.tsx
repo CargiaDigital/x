@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { CalendarClock, Sparkles, ShieldCheck, Clock3 } from 'lucide-react';
 
 type BookingFormProps = {
@@ -53,7 +54,7 @@ export default function BookingForm({ initialPackageId, initialCity, onComplete 
   );
 }
 
-function Feature({ icon, label }: { icon: React.ReactNode; label: string }) {
+function Feature({ icon, label }: { icon: ReactNode; label: string }) {
   return (
     <div className="flex items-center justify-center gap-2 bg-dark-300 border border-dark-600 rounded px-3 py-2">
       <span className="text-gold">{icon}</span>
